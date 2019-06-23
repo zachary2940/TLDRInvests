@@ -1,28 +1,59 @@
 import 'package:flutter/material.dart';
-import 'package:tldrinvests/login_page.dart';
+import 'package:bloc/bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tldrinvests/bloc/authentication_bloc/bloc.dart';
+import 'package:tldrinvests/pages/login/login_screen.dart';
+import 'package:tldrinvests/simple_bloc_delegate.dart';
+import 'package:tldrinvests/repository/user_repository.dart';
+import 'package:tldrinvests/pages/splash_screen.dart';
+import 'package:tldrinvests/pages/home_screen.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
-        // changing the primarySwatch below to Colors.green and then invoke
-        // "hot reload" (press "r" in the console where you ran "flutter run",
-        // or simply save your changes to "hot reload" in a Flutter IDE).
-        // Notice that the counter didn't reset back to zero; the application
-        // is not restarted.
-        primarySwatch: Colors.blue,
-      ),
-      home: LoginPage()
-    );
-  }
+main() {
+  BlocSupervisor().delegate = SimpleBlocDelegate();
+  runApp(App());
 }
 
+class App extends StatefulWidget {
+  State<App> createState() => _AppState();
+}
+
+class _AppState extends State<App> {
+  final UserRepository _userRepository = UserRepository();
+  AuthenticationBloc _authenticationBloc;
+
+  @override
+  void initState() {
+    super.initState();
+    _authenticationBloc = AuthenticationBloc(userRepository: _userRepository);
+    _authenticationBloc.dispatch(AppStarted());
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocProvider(
+      bloc: _authenticationBloc,
+      child: MaterialApp(
+        home: BlocBuilder(
+          bloc: _authenticationBloc,
+          builder: (BuildContext context, AuthenticationState state) {
+            if (state is Uninitialized) {
+              return SplashScreen();
+            }
+            if (state is Unauthenticated) {
+              return LoginScreen(userRepository: _userRepository);
+            }
+            if (state is Authenticated) {
+              return HomeScreen(name: state.displayName);
+            }
+          },
+        ),
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    _authenticationBloc.dispose();
+    super.dispose();
+  }
+}
