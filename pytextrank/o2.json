@@ -1,0 +1,339 @@
+{"count": 1, "ids": [378], "pos": "np", "rank": 0.03942753431718337, "text": "tuesday"}
+{"count": 1, "ids": [117, 118], "pos": "np", "rank": 0.023688724082380392, "text": "net loss"}
+{"count": 1, "ids": [762, 763, 506], "pos": "np", "rank": 0.017971593071322598, "text": "solar power project"}
+{"count": 1, "ids": [751, 124], "pos": "np", "rank": 0.017814740623034706, "text": "fourth-quarter profit"}
+{"count": 13, "ids": [158, 36], "pos": "np", "rank": 0.01740480242542643, "text": "singapore cent"}
+{"count": 4, "ids": [8], "pos": "np", "rank": 0.0147953065682738, "text": "shares"}
+{"count": 11, "ids": [40], "pos": "vbd", "rank": 0.012762649318181704, "text": "said"}
+{"count": 1, "ids": [10], "pos": "np", "rank": 0.01262202117738079, "text": "dbs"}
+{"count": 1, "ids": [764, 772, 773, 774], "pos": "np", "rank": 0.011864488883530401, "text": "bangladesh power development board"}
+{"count": 9, "ids": [117, 124], "pos": "np", "rank": 0.011844362041190196, "text": "net profit"}
+{"count": 1, "ids": [4, 39], "pos": "np", "rank": 0.01117198445253488, "text": "new units"}
+{"count": 1, "ids": [44, 204], "pos": "np", "rank": 0.010698237354824652, "text": "market open"}
+{"count": 1, "ids": [136, 20], "pos": "np", "rank": 0.010130456290486742, "text": "issue price"}
+{"count": 1, "ids": [791, 125], "pos": "np", "rank": 0.009211756209570583, "text": "full year"}
+{"count": 1, "ids": [506], "pos": "np", "rank": 0.008985796535661299, "text": "projects"}
+{"count": 12, "ids": [124], "pos": "nn", "rank": 0.008907370311517353, "text": "profit"}
+{"count": 1, "ids": [36, 48], "pos": "np", "rank": 0.008702401212713215, "text": "cent interest"}
+{"count": 1, "ids": [332, 362], "pos": "np", "rank": 0.008513183485292737, "text": "key agreements"}
+{"count": 1, "ids": [557], "pos": "np", "rank": 0.008495669275907388, "text": "offer"}
+{"count": 1, "ids": [72, 668, 499], "pos": "np", "rank": 0.007973559153879425, "text": "more holistic services"}
+{"count": 1, "ids": [681, 120, 682], "pos": "np", "rank": 0.007403815528325771, "text": "fourth quarter tumble"}
+{"count": 1, "ids": [271, 8], "pos": "np", "rank": 0.0073976532841369, "text": "ifast shares"}
+{"count": 1, "ids": [87, 182, 819, 326], "pos": "np", "rank": 0.007365091146742799, "text": "engineering group bbr holdings"}
+{"count": 2, "ids": [825, 826, 525], "pos": "np", "rank": 0.007107704083537766, "text": "distribution reinvestment plan"}
+{"count": 2, "ids": [706], "pos": "np", "rank": 0.0069285809749638026, "text": "capitaland"}
+{"count": 1, "ids": [663, 664], "pos": "np", "rank": 0.00666859759019806, "text": "alternative models"}
+{"count": 1, "ids": [10, 138], "pos": "np", "rank": 0.006311010588690395, "text": "dbs bank"}
+{"count": 1, "ids": [304, 705], "pos": "np", "rank": 0.00615258262013062, "text": "investment properties"}
+{"count": 1, "ids": [235, 10, 666], "pos": "np", "rank": 0.006137257179715526, "text": "arm dbs vickers"}
+{"count": 1, "ids": [660, 661, 436], "pos": "np", "rank": 0.006071800524107495, "text": "retail stock-brokerage operations"}
+{"count": 5, "ids": [160], "pos": "nnp", "rank": 0.00605847012895823, "text": "wednesday"}
+{"count": 1, "ids": [713, 506], "pos": "np", "rank": 0.005990531023774199, "text": "residential projects"}
+{"count": 1, "ids": [166, 754], "pos": "np", "rank": 0.005947550507754074, "text": "hong kong"}
+{"count": 1, "ids": [124, 822], "pos": "np", "rank": 0.0059382468743449015, "text": "profit warning"}
+{"count": 2, "ids": [772], "pos": "nnp", "rank": 0.0059322444417652005, "text": "power"}
+{"count": 2, "ids": [36], "pos": "np", "rank": 0.005801600808475476, "text": "cent"}
+{"count": 1, "ids": [774], "pos": "nnp", "rank": 0.0057282100161632045, "text": "board"}
+{"count": 2, "ids": [697], "pos": "np", "rank": 0.00568710780592041, "text": "sembmarine"}
+{"count": 1, "ids": [177, 703], "pos": "np", "rank": 0.005628037517010712, "text": "asset recycling"}
+{"count": 1, "ids": [39, 768, 769], "pos": "np", "rank": 0.00558599222626744, "text": "unit hdfc sinpower"}
+{"count": 4, "ids": [39], "pos": "nn", "rank": 0.00558599222626744, "text": "unit"}
+{"count": 1, "ids": [458, 125], "pos": "np", "rank": 0.005565613233436682, "text": "last year"}
+{"count": 10, "ids": [59], "pos": "vbd", "rank": 0.0055361700881239595, "text": "closed"}
+{"count": 1, "ids": [7], "pos": "np", "rank": 0.005428243252998509, "text": "trading"}
+{"count": 2, "ids": [158, 274, 200], "pos": "np", "rank": 0.005373109643755741, "text": "singapore medical group"}
+{"count": 16, "ids": [158], "pos": "nnp", "rank": 0.005373109643755741, "text": "singapore"}
+{"count": 1, "ids": [44, 157], "pos": "np", "rank": 0.005349118677412326, "text": "market voices"}
+{"count": 1, "ids": [775], "pos": "nnp", "rank": 0.00532249534917953, "text": "ministry"}
+{"count": 1, "ids": [4, 5], "pos": "np", "rank": 0.005124231073940366, "text": "new developments"}
+{"count": 6, "ids": [723], "pos": "vbd", "rank": 0.005105122011070247, "text": "stood"}
+{"count": 1, "ids": [482, 166, 754, 834, 835, 836, 326], "pos": "np", "rank": 0.005102370865315651, "text": "associate hong kong integrated oncology centre holdings"}
+{"count": 1, "ids": [777, 778], "pos": "np", "rank": 0.005071442795862373, "text": "mineral resources"}
+{"count": 1, "ids": [20, 592], "pos": "np", "rank": 0.005065228145243371, "text": "price correction"}
+{"count": 1, "ids": [57, 702], "pos": "np", "rank": 0.005049768246165378, "text": "higher gains"}
+{"count": 1, "ids": [745, 746, 200], "pos": "np", "rank": 0.004876117999624438, "text": "minor food group"}
+{"count": 7, "ids": [315], "pos": "nnp", "rank": 0.004802636827699255, "text": "dec"}
+{"count": 4, "ids": [261], "pos": "vbd", "rank": 0.004784888643885121, "text": "posted"}
+{"count": 1, "ids": [727, 187, 44, 722], "pos": "np", "rank": 0.004741823838082428, "text": "unfavourable financial market conditions"}
+{"count": 3, "ids": [118], "pos": "nn", "rank": 0.004686655334434572, "text": "loss"}
+{"count": 2, "ids": [136], "pos": "nn", "rank": 0.004620116552439085, "text": "issue"}
+{"count": 14, "ids": [125], "pos": "nn", "rank": 0.0046058781047852914, "text": "year"}
+{"count": 2, "ids": [764], "pos": "nnp", "rank": 0.0045151416791732735, "text": "bangladesh"}
+{"count": 1, "ids": [126, 257, 183, 258, 259], "pos": "np", "rank": 0.004361128249866882, "text": "mainboard-listed wealth management fintech platform"}
+{"count": 1, "ids": [36, 719], "pos": "np", "rank": 0.004351200606356608, "text": "cent fall"}
+{"count": 1, "ids": [185, 761], "pos": "np", "rank": 0.004331214021481055, "text": "further delays"}
+{"count": 1, "ids": [57, 792], "pos": "np", "rank": 0.004301932922538029, "text": "higher expense"}
+{"count": 3, "ids": [760], "pos": "nn", "rank": 0.004297318896146054, "text": "back"}
+{"count": 2, "ids": [362], "pos": "nns", "rank": 0.0042565917426463686, "text": "agreements"}
+{"count": 8, "ids": [121], "pos": "vbd", "rank": 0.0042280636649742786, "text": "ended"}
+{"count": 1, "ids": [257, 183], "pos": "np", "rank": 0.004090437619255611, "text": "wealth management"}
+{"count": 2, "ids": [474], "pos": "nn", "rank": 0.0040411015368479975, "text": "financing"}
+{"count": 1, "ids": [770, 762, 771], "pos": "np", "rank": 0.00400536693447364, "text": "50-megawatt solar plant"}
+{"count": 3, "ids": [2], "pos": "np", "rank": 0.003727838774060028, "text": "company"}
+{"count": 1, "ids": [207, 681, 120], "pos": "np", "rank": 0.0037019077641628857, "text": "year-ago fourth quarter"}
+{"count": 3, "ids": [326], "pos": "nnp", "rank": 0.0036825455733713996, "text": "holdings"}
+{"count": 1, "ids": [89, 115, 758, 326], "pos": "np", "rank": 0.0035822149618231526, "text": "construction firm shs holdings"}
+{"count": 1, "ids": [89, 779], "pos": "np", "rank": 0.0035668691683045112, "text": "construction deadline"}
+{"count": 1, "ids": [828, 825], "pos": "np", "rank": 0.003553852041768883, "text": "advanced distribution"}
+{"count": 3, "ids": [825], "pos": "nn", "rank": 0.003553852041768883, "text": "distribution"}
+{"count": 2, "ids": [707], "pos": "vbd", "rank": 0.0035103262091019578, "text": "rose"}
+{"count": 1, "ids": [674, 675], "pos": "np", "rank": 0.003483415597455825, "text": "good performers"}
+{"count": 1, "ids": [67, 87, 182], "pos": "np", "rank": 0.0034541717081716774, "text": "offshore engineering group"}
+{"count": 1, "ids": [733, 330], "pos": "np", "rank": 0.0034007482718586123, "text": "media statement"}
+{"count": 3, "ids": [20], "pos": "np", "rank": 0.0033768187634955803, "text": "price"}
+{"count": 1, "ids": [499], "pos": "nns", "rank": 0.003372671916914414, "text": "services"}
+{"count": 1, "ids": [664], "pos": "nns", "rank": 0.00333429879509903, "text": "models"}
+{"count": 1, "ids": [833], "pos": "nnp", "rank": 0.0032369573305315656, "text": "s$9.59"}
+{"count": 1, "ids": [838], "pos": "nn", "rank": 0.0032369573305315656, "text": "s$2.94"}
+{"count": 2, "ids": [284], "pos": "np", "rank": 0.0032155154577555183, "text": "revenue"}
+{"count": 1, "ids": [679], "pos": "np", "rank": 0.00316269122579012, "text": "remisiers"}
+{"count": 1, "ids": [12, 13, 591], "pos": "np", "rank": 0.0031522534832511694, "text": "investment research upgrades"}
+{"count": 2, "ids": [138], "pos": "nn", "rank": 0.003137532576985755, "text": "bank"}
+{"count": 1, "ids": [773], "pos": "nnp", "rank": 0.0030994003939414636, "text": "development"}
+{"count": 1, "ids": [807, 808], "pos": "np", "rank": 0.003097494920152541, "text": "corporate finance"}
+{"count": 2, "ids": [705], "pos": "nns", "rank": 0.00307629131006531, "text": "properties"}
+{"count": 1, "ids": [715, 705], "pos": "np", "rank": 0.00307629131006531, "text": "operational properties"}
+{"count": 1, "ids": [666], "pos": "nnp", "rank": 0.003068628589857763, "text": "vickers"}
+{"count": 2, "ids": [436], "pos": "nns", "rank": 0.0030359002620537474, "text": "operations"}
+{"count": 2, "ids": [166], "pos": "nnp", "rank": 0.002973775253877037, "text": "hong"}
+{"count": 1, "ids": [818], "pos": "nnp", "rank": 0.0029028491677394962, "text": "s$0.20"}
+{"count": 1, "ids": [735], "pos": "nnp", "rank": 0.0028600752109039502, "text": "s$26.66"}
+{"count": 2, "ids": [177], "pos": "nn", "rank": 0.002814018758505356, "text": "asset"}
+{"count": 1, "ids": [337], "pos": "np", "rank": 0.0027945178393761713, "text": "april"}
+{"count": 2, "ids": [304], "pos": "nns", "rank": 0.0027828439637922306, "text": "investments"}
+{"count": 1, "ids": [460, 481], "pos": "np", "rank": 0.0027468000123827985, "text": "joint venture"}
+{"count": 2, "ids": [116], "pos": "vb", "rank": 0.0027114493175495395, "text": "report"}
+{"count": 1, "ids": [167], "pos": "nnp", "rank": 0.0026768178955777636, "text": "limited"}
+{"count": 1, "ids": [44], "pos": "np", "rank": 0.002674559338706163, "text": "market"}
+{"count": 1, "ids": [6], "pos": "vb", "rank": 0.0026441817709321764, "text": "affect"}
+{"count": 1, "ids": [724], "pos": "nns", "rank": 0.0026359005997507994, "text": "s$136.9"}
+{"count": 2, "ids": [191], "pos": "nns", "rank": 0.002628606689709202, "text": "results"}
+{"count": 1, "ids": [711, 712], "pos": "np", "rank": 0.002620217598725787, "text": "greater contributions"}
+{"count": 1, "ids": [24], "pos": "nnp", "rank": 0.0025942065204973865, "text": "china"}
+{"count": 1, "ids": [789, 182, 785, 790], "pos": "np", "rank": 0.0025626790008368614, "text": "production group kingsmen creatives"}
+{"count": 1, "ids": [5], "pos": "nns", "rank": 0.002562115536970183, "text": "developments"}
+{"count": 1, "ids": [482], "pos": "nns", "rank": 0.0025511854326578254, "text": "associates"}
+{"count": 1, "ids": [676], "pos": "np", "rank": 0.0025385994314681137, "text": "drop"}
+{"count": 1, "ids": [778], "pos": "nnps", "rank": 0.0025357213979311866, "text": "resources"}
+{"count": 1, "ids": [730, 702], "pos": "np", "rank": 0.002524884123082689, "text": "high gains"}
+{"count": 3, "ids": [702], "pos": "vbd", "rank": 0.002524884123082689, "text": "gained"}
+{"count": 2, "ids": [785], "pos": "np", "rank": 0.0025082532273849032, "text": "kingsmen"}
+{"count": 1, "ids": [717, 718], "pos": "np", "rank": 0.0024706783136070835, "text": "great eastern"}
+{"count": 5, "ids": [681, 120], "pos": "np", "rank": 0.002467938509441924, "text": "fourth quarter"}
+{"count": 1, "ids": [700, 701, 128], "pos": "np", "rank": 0.0024563081698904675, "text": "better operating performance"}
+{"count": 2, "ids": [823, 540, 541], "pos": "np", "rank": 0.0024563081698904675, "text": "mapletree industrial trust"}
+{"count": 1, "ids": [736, 200], "pos": "np", "rank": 0.002438058999812219, "text": "breadtalk group"}
+{"count": 5, "ids": [200], "pos": "nnp", "rank": 0.002438058999812219, "text": "group"}
+{"count": 1, "ids": [780], "pos": "vbn", "rank": 0.002403623322391638, "text": "pulled"}
+{"count": 1, "ids": [594], "pos": "nns", "rank": 0.002403091831927133, "text": "fundamentals"}
+{"count": 1, "ids": [671, 672, 162], "pos": "np", "rank": 0.002396908946422483, "text": "town hall meeting"}
+{"count": 2, "ids": [722], "pos": "nns", "rank": 0.002370911919041214, "text": "conditions"}
+{"count": 1, "ids": [721, 44, 722], "pos": "np", "rank": 0.002370911919041214, "text": "volatile market conditions"}
+{"count": 1, "ids": [134], "pos": "np", "rank": 0.0023274899965234773, "text": "customers"}
+{"count": 1, "ids": [758], "pos": "np", "rank": 0.002320573480190258, "text": "shs"}
+{"count": 1, "ids": [834], "pos": "nnp", "rank": 0.00230527369200389, "text": "integrated"}
+{"count": 2, "ids": [754], "pos": "nnp", "rank": 0.00227783207974809, "text": "kong"}
+{"count": 1, "ids": [704], "pos": "nn", "rank": 0.0022724097874692677, "text": "revaluation"}
+{"count": 1, "ids": [626], "pos": "nn", "rank": 0.00223967197606139, "text": "cash"}
+{"count": 1, "ids": [836], "pos": "nnp", "rank": 0.002237194954517069, "text": "centre"}
+{"count": 1, "ids": [835], "pos": "nnp", "rank": 0.002235667247826193, "text": "oncology"}
+{"count": 3, "ids": [525], "pos": "nn", "rank": 0.002234302350138807, "text": "plan"}
+{"count": 1, "ids": [662], "pos": "vbg", "rank": 0.0022159749212136036, "text": "exploring"}
+{"count": 1, "ids": [281], "pos": "nns", "rank": 0.002206784417132963, "text": "costs"}
+{"count": 1, "ids": [693], "pos": "vbn", "rank": 0.0021985291433262314, "text": "secured"}
+{"count": 2, "ids": [96], "pos": "vbn", "rank": 0.0021911084506455775, "text": "scheduled"}
+{"count": 1, "ids": [259], "pos": "nn", "rank": 0.002180564124933441, "text": "platform"}
+{"count": 1, "ids": [830], "pos": "nnp", "rank": 0.002175283585379703, "text": "s$1.99"}
+{"count": 1, "ids": [802, 803], "pos": "np", "rank": 0.002169372240724167, "text": "furniture retailer"}
+{"count": 2, "ids": [761], "pos": "nns", "rank": 0.0021656070107405273, "text": "delays"}
+{"count": 1, "ids": [696], "pos": "nns", "rank": 0.0021602427360097203, "text": "provisions"}
+{"count": 1, "ids": [776], "pos": "nnp", "rank": 0.00213981827738349, "text": "energy"}
+{"count": 1, "ids": [66], "pos": "vbg", "rank": 0.0021224612658634835, "text": "building"}
+{"count": 2, "ids": [714], "pos": "vbg", "rank": 0.002116943428160768, "text": "acquiring"}
+{"count": 1, "ids": [732], "pos": "np", "rank": 0.002114737127409339, "text": "insurer"}
+{"count": 1, "ids": [57, 731], "pos": "np", "rank": 0.0021044156379236116, "text": "higher valuation"}
+{"count": 1, "ids": [809], "pos": "nn", "rank": 0.0021029467003134627, "text": "week"}
+{"count": 1, "ids": [661], "pos": "nn", "rank": 0.0020941182889200236, "text": "stock-brokerage"}
+{"count": 1, "ids": [801], "pos": "nnp", "rank": 0.002086369062963426, "text": "s$0.205"}
+{"count": 1, "ids": [804, 187, 805], "pos": "np", "rank": 0.0020812813404117625, "text": "independent financial adviser"}
+{"count": 1, "ids": [787, 788], "pos": "np", "rank": 0.002079052538180283, "text": "communication design"}
+{"count": 2, "ids": [795], "pos": "np", "rank": 0.0020746865481637206, "text": "courts"}
+{"count": 1, "ids": [175], "pos": "nn", "rank": 0.002072882740503617, "text": "impairment"}
+{"count": 2, "ids": [257], "pos": "nn", "rank": 0.0020452188096278055, "text": "wealth"}
+{"count": 1, "ids": [692], "pos": "nn", "rank": 0.002038307918230846, "text": "recognition"}
+{"count": 1, "ids": [659], "pos": "vbg", "rank": 0.00202198910449084, "text": "revamping"}
+{"count": 1, "ids": [771], "pos": "nn", "rank": 0.00200268346723682, "text": "plant"}
+{"count": 1, "ids": [695], "pos": "nn", "rank": 0.0019934581976936553, "text": "writeback"}
+{"count": 2, "ids": [183], "pos": "nn", "rank": 0.0019918972933577637, "text": "management"}
+{"count": 1, "ids": [300], "pos": "nns", "rank": 0.0019581617736229933, "text": "terms"}
+{"count": 1, "ids": [742], "pos": "nnp", "rank": 0.0019420586854233843, "text": "thailand"}
+{"count": 1, "ids": [291], "pos": "vbd", "rank": 0.0019291596835375082, "text": "boosted"}
+{"count": 1, "ids": [783], "pos": "nn", "rank": 0.001921677691963072, "text": "lack"}
+{"count": 1, "ids": [798, 799], "pos": "np", "rank": 0.001917267001750963, "text": "nojima asia-pacific"}
+{"count": 1, "ids": [687], "pos": "nn", "rank": 0.0018906867695591971, "text": "volume"}
+{"count": 1, "ids": [673], "pos": "nns", "rank": 0.0018801725608370411, "text": "rumours"}
+{"count": 1, "ids": [769], "pos": "nnp", "rank": 0.0018170008681971973, "text": "sinpower"}
+{"count": 3, "ids": [89], "pos": "nn", "rank": 0.0017911074809115763, "text": "construction"}
+{"count": 1, "ids": [779], "pos": "nn", "rank": 0.0017834345841522556, "text": "deadline"}
+{"count": 2, "ids": [824], "pos": "nnp", "rank": 0.0017718532668381218, "text": "mit"}
+{"count": 2, "ids": [85], "pos": "vbn", "rank": 0.00176403167473154, "text": "provided"}
+{"count": 1, "ids": [812], "pos": "vb", "rank": 0.0017553723373187273, "text": "amend"}
+{"count": 1, "ids": [698], "pos": "nnp", "rank": 0.0017420634031209078, "text": "s$1.58"}
+{"count": 1, "ids": [675], "pos": "nns", "rank": 0.0017417077987279125, "text": "performers"}
+{"count": 3, "ids": [182], "pos": "nn", "rank": 0.0017270858540858387, "text": "group"}
+{"count": 1, "ids": [816, 817], "pos": "np", "rank": 0.0017237238624717255, "text": "takeover code"}
+{"count": 1, "ids": [680, 83], "pos": "np", "rank": 0.0017237238624717255, "text": "sembcorp marine"}
+{"count": 1, "ids": [759], "pos": "vbg", "rank": 0.0017158623139982003, "text": "hunting"}
+{"count": 1, "ids": [330], "pos": "nn", "rank": 0.0017003741359293062, "text": "statement"}
+{"count": 1, "ids": [462], "pos": "np", "rank": 0.0016847791276745105, "text": "manager"}
+{"count": 1, "ids": [763], "pos": "nn", "rank": 0.0016760952036549675, "text": "power"}
+{"count": 1, "ids": [258], "pos": "nn", "rank": 0.001674933035657136, "text": "fintech"}
+{"count": 1, "ids": [716], "pos": "nnp", "rank": 0.0016727922280037604, "text": "s$3.39"}
+{"count": 1, "ids": [402], "pos": "nn", "rank": 0.0016691468307666827, "text": "application"}
+{"count": 1, "ids": [832, 200], "pos": "np", "rank": 0.0016253726665414793, "text": "talkmed group"}
+{"count": 2, "ids": [57, 284], "pos": "np", "rank": 0.0016077577288777592, "text": "higher revenue"}
+{"count": 1, "ids": [252], "pos": "nn", "rank": 0.001589012049016636, "text": "sale"}
+{"count": 1, "ids": [755], "pos": "nnp", "rank": 0.0015822329747685996, "text": "malaysia"}
+{"count": 2, "ids": [35], "pos": "nn", "rank": 0.001580843836019596, "text": "per"}
+{"count": 1, "ids": [591], "pos": "vbz", "rank": 0.0015761267416255847, "text": "upgrades"}
+{"count": 1, "ids": [752], "pos": "nn", "rank": 0.0015731456472677205, "text": "s$2.6"}
+{"count": 1, "ids": [808], "pos": "nnp", "rank": 0.0015487474600762705, "text": "finance"}
+{"count": 1, "ids": [819, 590], "pos": "np", "rank": 0.0015439127471704403, "text": "bbr stock"}
+{"count": 1, "ids": [689], "pos": "nn", "rank": 0.0015160321248419322, "text": "depreciation"}
+{"count": 1, "ids": [407], "pos": "vb", "rank": 0.0015127158190399552, "text": "move"}
+{"count": 3, "ids": [740], "pos": "nnp", "rank": 0.0014941083131392377, "text": "q4"}
+{"count": 1, "ids": [736], "pos": "np", "rank": 0.001455870593594137, "text": "breadtalk"}
+{"count": 1, "ids": [797, 795], "pos": "np", "rank": 0.001455870593594137, "text": "singapore-listed courts"}
+{"count": 1, "ids": [172], "pos": "nn", "rank": 0.00145220625264238, "text": "filing"}
+{"count": 1, "ids": [733], "pos": "nn", "rank": 0.00145220625264238, "text": "media"}
+{"count": 1, "ids": [186], "pos": "nns", "rank": 0.00145220625264238, "text": "details"}
+{"count": 1, "ids": [807], "pos": "nnp", "rank": 0.0014451248086651894, "text": "corporate"}
+{"count": 2, "ids": [726], "pos": "vbd", "rank": 0.0014373970897207885, "text": "registered"}
+{"count": 1, "ids": [57, 209], "pos": "np", "rank": 0.0014339776408460096, "text": "higher earnings"}
+{"count": 2, "ids": [189], "pos": "vbd", "rank": 0.001426775321347038, "text": "announced"}
+{"count": 1, "ids": [765], "pos": "nn", "rank": 0.0014254522823504735, "text": "failure"}
+{"count": 1, "ids": [703], "pos": "nn", "rank": 0.0014216047857303757, "text": "recycling"}
+{"count": 1, "ids": [768], "pos": "nnp", "rank": 0.0014157625084039067, "text": "hdfc"}
+{"count": 1, "ids": [543], "pos": "nn", "rank": 0.0014157625084039067, "text": "trust"}
+{"count": 2, "ids": [16], "pos": "vbn", "rank": 0.0014153480304802677, "text": "bought"}
+{"count": 1, "ids": [368], "pos": "vbn", "rank": 0.0014153480304802677, "text": "made"}
+{"count": 1, "ids": [235], "pos": "nn", "rank": 0.0014003072128410767, "text": "arm"}
+{"count": 1, "ids": [694], "pos": "nn", "rank": 0.0014002223397581717, "text": "floater"}
+{"count": 1, "ids": [821], "pos": "nn", "rank": 0.0013841322442478092, "text": "reason"}
+{"count": 1, "ids": [97], "pos": "vbn", "rank": 0.0013838520670761073, "text": "completed"}
+{"count": 1, "ids": [157], "pos": "nns", "rank": 0.0013753815615798733, "text": "voices"}
+{"count": 1, "ids": [777], "pos": "nnp", "rank": 0.0013724223989429005, "text": "mineral"}
+{"count": 1, "ids": [691], "pos": "nn", "rank": 0.0013693151822389408, "text": "margin"}
+{"count": 1, "ids": [473], "pos": "vbg", "rank": 0.0013686543596190162, "text": "including"}
+{"count": 1, "ids": [168], "pos": "vbz", "rank": 0.0013632557816991887, "text": "expects"}
+{"count": 1, "ids": [123], "pos": "vbn", "rank": 0.0013579202593485495, "text": "compared"}
+{"count": 1, "ids": [806], "pos": "nnp", "rank": 0.0013355280558196572, "text": "kpmg"}
+{"count": 1, "ids": [269, 208], "pos": "np", "rank": 0.0013277320970283624, "text": "same period"}
+{"count": 1, "ids": [712], "pos": "nns", "rank": 0.0013101087993628935, "text": "contributions"}
+{"count": 1, "ids": [800], "pos": "vb", "rank": 0.0012922592243831172, "text": "revise"}
+{"count": 1, "ids": [789], "pos": "nn", "rank": 0.0012813395004184307, "text": "production"}
+{"count": 3, "ids": [718], "pos": "nnp", "rank": 0.0012353391568035417, "text": "eastern"}
+{"count": 2, "ids": [541], "pos": "nnp", "rank": 0.0012281540849452338, "text": "trust"}
+{"count": 1, "ids": [128], "pos": "nn", "rank": 0.0012281540849452338, "text": "performance"}
+{"count": 1, "ids": [822], "pos": "nn", "rank": 0.0012230978558774523, "text": "warning"}
+{"count": 2, "ids": [826], "pos": "nn", "rank": 0.0012212750659385378, "text": "reinvestment"}
+{"count": 1, "ids": [790], "pos": "nnp", "rank": 0.001205279389241955, "text": "creatives"}
+{"count": 1, "ids": [756], "pos": "nn", "rank": 0.001198552928445956, "text": "s$1.16"}
+{"count": 1, "ids": [671], "pos": "nn", "rank": 0.0011984544732112415, "text": "town"}
+{"count": 1, "ids": [815], "pos": "nnp", "rank": 0.0011984544732112415, "text": "rule"}
+{"count": 1, "ids": [361], "pos": "nn", "rank": 0.0011984544732112415, "text": "termination"}
+{"count": 1, "ids": [682], "pos": "nn", "rank": 0.0011932023205812078, "text": "tumble"}
+{"count": 1, "ids": [720], "pos": "vbn", "rank": 0.0011932023205812078, "text": "roiled"}
+{"count": 1, "ids": [592], "pos": "nn", "rank": 0.0011835848691369095, "text": "correction"}
+{"count": 2, "ids": [719], "pos": "vbd", "rank": 0.0011745123438500677, "text": "fell"}
+{"count": 1, "ids": [690], "pos": "vbn", "rank": 0.0011645909800126085, "text": "offset"}
+{"count": 1, "ids": [794], "pos": "nnp", "rank": 0.0011365035027250836, "text": "s$0.525"}
+{"count": 1, "ids": [829], "pos": "nnp", "rank": 0.0011016768980408632, "text": "feb"}
+{"count": 1, "ids": [686], "pos": "nn", "rank": 0.001093350287647105, "text": "business"}
+{"count": 1, "ids": [837], "pos": "nnp", "rank": 0.0010911917860837832, "text": "s$0.57"}
+{"count": 1, "ids": [803], "pos": "nn", "rank": 0.0010846861203620834, "text": "retailer"}
+{"count": 1, "ids": [820], "pos": "vb", "rank": 0.0010802352370694063, "text": "give"}
+{"count": 1, "ids": [753], "pos": "nns", "rank": 0.0010720885086480706, "text": "thanks"}
+{"count": 1, "ids": [406], "pos": "nn", "rank": 0.0010675084982795912, "text": "partner"}
+{"count": 1, "ids": [710], "pos": "vbn", "rank": 0.0010668529803061228, "text": "underpinned"}
+{"count": 1, "ids": [743], "pos": "vbg", "rank": 0.001065802970047732, "text": "remaining"}
+{"count": 1, "ids": [688], "pos": "vbn", "rank": 0.001063858805588232, "text": "accelerated"}
+{"count": 1, "ids": [793], "pos": "nn", "rank": 0.0010562160326158384, "text": "dip"}
+{"count": 1, "ids": [731], "pos": "nn", "rank": 0.0010522078189618058, "text": "valuation"}
+{"count": 1, "ids": [481], "pos": "nn", "rank": 0.0010496804262939711, "text": "venture"}
+{"count": 1, "ids": [805], "pos": "nn", "rank": 0.0010406406702058813, "text": "adviser"}
+{"count": 1, "ids": [788], "pos": "nn", "rank": 0.0010395262690901415, "text": "design"}
+{"count": 1, "ids": [162], "pos": "nn", "rank": 0.0010336183585812838, "text": "meeting"}
+{"count": 3, "ids": [27], "pos": "vbd", "rank": 0.0010027672767833774, "text": "traded"}
+{"count": 3, "ids": [796], "pos": "nnp", "rank": 0.0009957437380211612, "text": "asia"}
+{"count": 1, "ids": [521], "pos": "vb", "rank": 0.0009919465766620535, "text": "dbs"}
+{"count": 1, "ids": [563], "pos": "vb", "rank": 0.0009721449119983674, "text": "intend"}
+{"count": 1, "ids": [342], "pos": "vb", "rank": 0.0009721449119983674, "text": "own"}
+{"count": 1, "ids": [31], "pos": "vbn", "rank": 0.0009608977605853257, "text": "increased"}
+{"count": 1, "ids": [799], "pos": "nnp", "rank": 0.0009586335008754815, "text": "asia-pacific"}
+{"count": 1, "ids": [811], "pos": "vbn", "rank": 0.000948783806941455, "text": "allowed"}
+{"count": 1, "ids": [782], "pos": "vbg", "rank": 0.000948783806941455, "text": "facing"}
+{"count": 2, "ids": [786], "pos": "nnp", "rank": 0.0009411532033511405, "text": "creative"}
+{"count": 1, "ids": [741], "pos": "nnp", "rank": 0.0009364877974413873, "text": "s$0.88"}
+{"count": 3, "ids": [265], "pos": "np", "rank": 0.0009317403315849991, "text": "months"}
+{"count": 1, "ids": [589, 590], "pos": "np", "rank": 0.0009317403315849991, "text": "hot stock"}
+{"count": 2, "ids": [274], "pos": "nnp", "rank": 0.0009226469598613739, "text": "medical"}
+{"count": 1, "ids": [708], "pos": "vb", "rank": 0.0009011434652796752, "text": "s$475.7"}
+{"count": 1, "ids": [48], "pos": "nn", "rank": 0.0009011434652796752, "text": "interest"}
+{"count": 1, "ids": [839], "pos": "nnp", "rank": 0.0009011434652796752, "text": "s$22.19"}
+{"count": 2, "ids": [737], "pos": "vbn", "rank": 0.0009011434652796752, "text": "restated"}
+{"count": 1, "ids": [739], "pos": "nnp", "rank": 0.0009011434652796752, "text": "s$154.77"}
+{"count": 1, "ids": [787], "pos": "nn", "rank": 0.000879103777630268, "text": "communication"}
+{"count": 1, "ids": [767], "pos": "nn", "rank": 0.0008618619312358627, "text": "default"}
+{"count": 1, "ids": [207], "pos": "nn", "rank": 0.0008618619312358627, "text": "year-ago"}
+{"count": 1, "ids": [748], "pos": "nn", "rank": 0.0008618619312358627, "text": "s$6.96"}
+{"count": 1, "ids": [83], "pos": "nnp", "rank": 0.0008618619312358627, "text": "marine"}
+{"count": 1, "ids": [814], "pos": "nn", "rank": 0.0008618619312358627, "text": "accordance"}
+{"count": 1, "ids": [750], "pos": "nfp", "rank": 0.0008618619312358627, "text": "ifast"}
+{"count": 1, "ids": [817], "pos": "nnp", "rank": 0.0008618619312358627, "text": "code"}
+{"count": 1, "ids": [670], "pos": "vbz", "rank": 0.0008618619312358627, "text": "understands"}
+{"count": 1, "ids": [115], "pos": "nn", "rank": 0.000854189034476542, "text": "firm"}
+{"count": 1, "ids": [13], "pos": "nnp", "rank": 0.0008519620606578654, "text": "research"}
+{"count": 1, "ids": [120], "pos": "np", "rank": 0.0008349306540615445, "text": "quarter"}
+{"count": 2, "ids": [798], "pos": "nnp", "rank": 0.0008274150860716338, "text": "nojima"}
+{"count": 1, "ids": [672], "pos": "nn", "rank": 0.0008054231960218284, "text": "hall"}
+{"count": 2, "ids": [87], "pos": "nn", "rank": 0.0007881904069026482, "text": "engineering"}
+{"count": 2, "ids": [590], "pos": "nn", "rank": 0.0007719563735852201, "text": "stock"}
+{"count": 1, "ids": [819], "pos": "np", "rank": 0.0007629896181211592, "text": "bbr"}
+{"count": 1, "ids": [784], "pos": "nnp", "rank": 0.000749992817123544, "text": "s$0.187"}
+{"count": 1, "ids": [840], "pos": "nnp", "rank": 0.000749992817123544, "text": "s$0.45"}
+{"count": 1, "ids": [414], "pos": "nnp", "rank": 0.000749992817123544, "text": "s$25.10"}
+{"count": 1, "ids": [340], "pos": "nnp", "rank": 0.0007480141840080259, "text": "jan"}
+{"count": 1, "ids": [276], "pos": "nn", "rank": 0.0007392390443628921, "text": "decrease"}
+{"count": 1, "ids": [738], "pos": "vbd", "rank": 0.0007392390443628921, "text": "ticked"}
+{"count": 1, "ids": [802], "pos": "nn", "rank": 0.0007279352967970685, "text": "furniture"}
+{"count": 1, "ids": [734], "pos": "nnp", "rank": 0.0007279352967970685, "text": "great"}
+{"count": 1, "ids": [797], "pos": "nnp", "rank": 0.0007279352967970685, "text": "singapore-listed"}
+{"count": 2, "ids": [832], "pos": "nnp", "rank": 0.0007279352967970685, "text": "talkmed"}
+{"count": 1, "ids": [126], "pos": "nn", "rank": 0.0007279352967970685, "text": "mainboard-listed"}
+{"count": 7, "ids": [209], "pos": "nns", "rank": 0.0006944618388196621, "text": "earnings"}
+{"count": 1, "ids": [792], "pos": "nn", "rank": 0.0006944618388196621, "text": "expense"}
+{"count": 2, "ids": [208], "pos": "nn", "rank": 0.0006638660485141812, "text": "period"}
+{"count": 1, "ids": [701], "pos": "nn", "rank": 0.0006638660485141812, "text": "operating"}
+{"count": 1, "ids": [746], "pos": "nnp", "rank": 0.0006638660485141812, "text": "food"}
+{"count": 2, "ids": [540], "pos": "nnp", "rank": 0.0006638660485141812, "text": "industrial"}
+{"count": 1, "ids": [558], "pos": "nn", "rank": 0.0006069494911277642, "text": "offeror"}
+{"count": 1, "ids": [12], "pos": "nnp", "rank": 0.0005978674209402873, "text": "investment"}
+{"count": 1, "ids": [757], "pos": "nn", "rank": 0.00046587016579249953, "text": "shs"}
+{"count": 2, "ids": [823], "pos": "nnp", "rank": 0.00046587016579249953, "text": "mapletree"}
+{"count": 1, "ids": [459], "pos": "nnp", "rank": 0.00046587016579249953, "text": "ocbc"}
+{"count": 1, "ids": [1], "pos": "vbg", "rank": 0.00046587016579249953, "text": "following"}
+{"count": 1, "ids": [613], "pos": "vbd", "rank": 0.00046587016579249953, "text": "continued"}
+{"count": 1, "ids": [749], "pos": "nn", "rank": 0.00046587016579249953, "text": "corporation"}
+{"count": 1, "ids": [729], "pos": "nn", "rank": 0.00046587016579249953, "text": "contrast"}
+{"count": 1, "ids": [745], "pos": "nnp", "rank": 0.00046587016579249953, "text": "minor"}
+{"count": 1, "ids": [813], "pos": "nn", "rank": 0.00046587016579249953, "text": "way"}
+{"count": 1, "ids": [680], "pos": "nnp", "rank": 0.00046587016579249953, "text": "sembcorp"}
+{"count": 1, "ids": [667], "pos": "nn", "rank": 0.00046587016579249953, "text": "view"}
+{"count": 1, "ids": [709], "pos": "nn", "rank": 0.00046587016579249953, "text": "s$277.8"}
+{"count": 1, "ids": [816], "pos": "nnp", "rank": 0.00046587016579249953, "text": "takeover"}
+{"count": 1, "ids": [669], "pos": "nnp", "rank": 0.00046587016579249953, "text": "bt"}
+{"count": 1, "ids": [766], "pos": "vb", "rank": 0.00046587016579249953, "text": "trigger"}
+{"count": 1, "ids": [683], "pos": "nn", "rank": 0.00046587016579249953, "text": "s$117.3"}
+{"count": 2, "ids": [441], "pos": "nn", "rank": 0.00046587016579249953, "text": "counter"}
