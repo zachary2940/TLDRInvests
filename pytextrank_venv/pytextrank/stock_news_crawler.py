@@ -8,7 +8,7 @@ import json
 # name params if more than 1 word must represent space with %20 (E.g Singapore%20Airlines)
 def getLinks(name):
     page = "https://www.businesstimes.com.sg/search/" + name + "%20stocks?page=1&filter=headline_en"
-    # query the website and return the html to the variable ‘page’ with header to pass off as browser
+    # query the website and return the html to the variable page with header to pass off as browser
     req = Request(page, headers={'User-Agent': 'Mozilla/5.0'})
     webpage = urlopen(req).read()
     # parse the html using beautiful soup and store in variable `soup`

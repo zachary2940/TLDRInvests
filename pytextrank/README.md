@@ -1,1 +1,0 @@
-Run python stage1.py <stock_name>

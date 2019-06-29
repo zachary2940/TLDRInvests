@@ -1,4 +1,0 @@
-**excerpts:** THE following companies saw new developments that may affect trading of their shares on Wednesday: 
- DBS, Singapore Airlines ( SIA ):   DBS Bank and SIA signed a memorandum of understanding ( MOU ) on Tuesday to enable a seamless banking and travel customer experience for travellers by enhancing digital capabilities across various platforms. DBS shares closed at S$25.10 on Tuesday, down 0.1 per cent, or two Singapore cents, while SIA shares closed at S$9.56, down 0.3 per cent, or three Singapore cents. Singapore shares soar 1.5 % on Wednesday amid Trump-Xi meeting hopes Shares in Disa closed at 0.2 Singapore cent apiece on Tuesday, down 0.1 Singapore cent; while shares in Camsing Healthcare last traded at S$1.07 apiece on Jan 18.
-
-**keywords:** trading, first contract, previous years, general corporate purposes, group, customers, integrated digital ecosystems, credit loss, build-and-transfer project, sia shares, dbs shares, company, singapore shares

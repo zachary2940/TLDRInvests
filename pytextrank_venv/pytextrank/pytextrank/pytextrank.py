@@ -186,7 +186,7 @@ def parse_graf (doc_id, graf_text, base_idx, spacy_nlp=None):
     # set up the spaCy NLP parser
     if not spacy_nlp:
         if not SPACY_NLP:
-            SPACY_NLP = spacy.load("en")
+            SPACY_NLP = spacy.load("en_core_web_sm")
 
         spacy_nlp = SPACY_NLP
 
@@ -243,48 +243,29 @@ def parse_graf (doc_id, graf_text, base_idx, spacy_nlp=None):
             new_base_idx += 1
 
         markup.append(ParsedGraf(id=doc_id, sha1=digest.hexdigest(), graf=graf))
-        # markup = {"markup": markup, "id": doc_id}
     return markup, new_base_idx
 
 
-def parse_doc (JSONArticle):
+def parse_doc (article):
     """
     parse one document to prep for TextRank
     """
     global DEBUG
+
+    # for meta in json_iter:
     base_idx = 0
-    for graf_text in filter_quotes(JSONArticle["text"], is_email=False):
+
+    for graf_text in filter_quotes(article["text"], is_email=False):
         if DEBUG:
             print("graf_text:", graf_text)
 
-        grafs, new_base_idx = parse_graf(JSONArticle["id"], graf_text, base_idx)
+        grafs, new_base_idx = parse_graf(article["id"], graf_text, base_idx)
         base_idx = new_base_idx
 
         for graf in grafs:
             yield graf
 
-def parse_doc_list (listOfJSONArticles):
-    """
-    parse one document to prep for TextRank
-    """
-    global DEBUG
-
-    for meta in listOfJSONArticles:
-        base_idx = 0
-        # print (meta)
-        for graf_text in filter_quotes(meta["text"], is_email=False): # removes quotes and turns it into paragraphs
-            if DEBUG:
-                print("graf_text:", graf_text)
-
-            grafs, new_base_idx = parse_graf(meta["id"], graf_text, base_idx) # returns paragraphs(grafs)
-            base_idx = new_base_idx # do i even use this
-            
-            for graf in grafs["markup"]:
-                yield graf 
-                # generator object, saves space, if i go with this implementation, i cannot group articles into id immediately as I return the generator object
-
-
-######################################################################
+#####################################################################
 ## graph analytics
 
 def get_tiles (graf, size=3):
@@ -576,61 +557,53 @@ def normalize_key_phrases (path, ranks, stopwords=None, spacy_nlp=None, skip_ner
     # set up the spaCy NLP parser
     if not spacy_nlp:
         if not SPACY_NLP:
-            SPACY_NLP = spacy.load("en")
+            SPACY_NLP = spacy.load("en_core_web_sm")
 
         spacy_nlp = SPACY_NLP
 
     # collect keyphrases
-    single_lex = {"lex": {}, "id": None}
-    phrase_lex = {"lex": {}, "id": None}
+    single_lex = {}
+    phrase_lex = {}
 
     if isinstance(path, str):
         path = json_iter(path)
 
     for meta in path:
-        print("meta:{}\n\n\n\n\n\n\n\n".format(meta))
+        # print("meta:{}".format(meta))
         sent = [w for w in map(WordNode._make, meta["graf"])] # same as [Point(*t) for t in [(3, 4), (5, 6)]]. *t puts it into a list
         # print ("id:{}".format(meta["id"]))
         for rl in collect_keyword(sent, ranks, stopwords):
-            # print("{}\n".format(rl)) # rl is ranked lexemme
             id = str(rl.ids)
-            if id not in single_lex["lex"]:
-                single_lex["lex"][id] = rl # single lex is dictionary with  each id as a key
+            if id not in single_lex:
+                single_lex[id] = rl
             else:
-                prev_lex = single_lex["lex"][id]
-                single_lex["lex"][id] = rl._replace(count = prev_lex.count + 1)
+                prev_lex = single_lex[id]
+                single_lex[id] = rl._replace(count = prev_lex.count + 1)
 
         if not skip_ner:
             for rl in collect_entities(sent, ranks, stopwords, spacy_nlp):
                 id = str(rl.ids)
 
-                if id not in phrase_lex["lex"]:
-                    phrase_lex["lex"][id] = rl # same as single lex
+                if id not in phrase_lex:
+                    phrase_lex[id] = rl
                 else:
-                    prev_lex = phrase_lex["lex"][id]
-                    phrase_lex["lex"][id] = rl._replace(count = prev_lex.count + 1)
+                    prev_lex = phrase_lex[id]
+                    phrase_lex[id] = rl._replace(count = prev_lex.count + 1)
 
         for rl in collect_phrases(sent, ranks, spacy_nlp):
             id = str(rl.ids)
 
-            if id not in phrase_lex["lex"]:
-                phrase_lex["lex"][id] = rl
+            if id not in phrase_lex:
+                phrase_lex[id] = rl
             else:
-                prev_lex = phrase_lex["lex"][id]
-                phrase_lex["lex"][id] = rl._replace(count = prev_lex.count + 1)
-        # print ("{}\n".format(single_lex)) # I will make a dictionary of dictionaries like {{id:1,single_lex:{}}}
-        single_lex['id'] = meta["id"]
-        phrase_lex['id'] = meta["id"]
-        # print("single_lex:{}".format(single_lex))
-        print("\n\n\n\n\n\n\n\n")
-    
-    # only single_lex and phrase_lex passes this point
+                prev_lex = phrase_lex[id]
+                phrase_lex[id] = rl._replace(count = prev_lex.count + 1)
+        
     # normalize ranks across single keywords and longer phrases:
     #    * boost the noun phrases based on their length
     #    * penalize the noun phrases for repeated words
-    # print(single_lex["ranked_lex"])
-    
-    rank_list = [rl.rank for rl in single_lex["lex"].values()]
+
+    rank_list = [rl.rank for rl in single_lex.values()]
     # print(rl)
     if len(rank_list) < 1:
         max_single_rank = 0
@@ -639,7 +612,7 @@ def normalize_key_phrases (path, ranks, stopwords=None, spacy_nlp=None, skip_ner
 
     repeated_roots = {}
 
-    for rl in sorted(phrase_lex["lex"].values(), key=lambda rl: len(rl), reverse=True):
+    for rl in sorted(phrase_lex.values(), key=lambda rl: len(rl), reverse=True):
         rank_list = []
 
         for i in iter(range(0, len(rl.ids))):
@@ -653,12 +626,12 @@ def normalize_key_phrases (path, ranks, stopwords=None, spacy_nlp=None, skip_ner
                 rank_list.append(rl.rank[i] / repeated_roots[id])
 
         phrase_rank = calc_rms(rank_list)
-        single_lex["lex"][str(rl.ids)] = rl._replace(rank = phrase_rank)
+        single_lex[str(rl.ids)] = rl._replace(rank = phrase_rank)
 
     # scale all the ranks together, so they sum to 1.0
-    sum_ranks = sum([rl.rank for rl in single_lex["lex"].values()])
+    sum_ranks = sum([rl.rank for rl in single_lex.values()])
 
-    for rl in sorted(single_lex["lex"].values(), key=lambda rl: rl.rank, reverse=True):
+    for rl in sorted(single_lex.values(), key=lambda rl: rl.rank, reverse=True):
         if sum_ranks > 0.0:
             rl = rl._replace(rank=rl.rank / sum_ranks)
         elif rl.rank == 0.0:
