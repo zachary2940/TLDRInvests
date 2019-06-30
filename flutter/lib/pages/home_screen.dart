@@ -5,6 +5,7 @@ import 'package:tldrinvests/bloc/authentication_bloc/bloc.dart';
 import './watchlist_page.dart' as watchlist_page;
 import './portfolio_page.dart' as portfolio_page;
 import './tldr_page.dart' as tldr_page;
+import './http_test.dart' as test;
 
 class HomeScreen extends StatefulWidget {
   final String name;
@@ -22,7 +23,8 @@ class _HomeScreenState extends State<HomeScreen>
   final List<MyTabs> _tabs = [
     new MyTabs(title: "Watch List"),
     new MyTabs(title: "Portfolio"),
-    new MyTabs(title: "TLDR")
+    new MyTabs(title: "TLDR"),
+    new MyTabs(title: "test")
   ];
 
   MyTabs handler;
@@ -31,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen>
   @override
   void initState() {
     super.initState();
-    controller = new TabController(vsync: this, length: 3, initialIndex: 1);
+    controller = new TabController(vsync: this, length: 4, initialIndex: 1);
     handler = _tabs[1];
     controller.addListener(handleSelected);
   }
@@ -72,7 +74,8 @@ class _HomeScreenState extends State<HomeScreen>
                 tabs: <Tab>[
                   new Tab(icon: new Icon(Icons.track_changes)),
                   new Tab(icon: new Icon(Icons.home)),
-                  new Tab(icon: new Icon(Icons.short_text))
+                  new Tab(icon: new Icon(Icons.short_text)),
+                  new Tab(icon: new Icon(Icons.threesixty))
                 ],
                 indicatorColor: Colors.blue,
                 labelColor: Colors.blue,
@@ -81,7 +84,8 @@ class _HomeScreenState extends State<HomeScreen>
           child: new TabBarView(controller: controller, children: <Widget>[
             new watchlist_page.WatchListPage(),
             new portfolio_page.PortfolioPage(),
-            new tldr_page.TLDRPage()
+            new tldr_page.TLDRPage(),
+            new test.MyApp()
           ]),
         ));
   }
