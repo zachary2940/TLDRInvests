@@ -13,6 +13,7 @@ Future<Post> fetchPost() async {
   //https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=$symbol&interval=5min&apikey=$apikey
   if (response.statusCode == 200) {
     // If the call to the server was successful, parse the JSON.
+    print(Post.fromJson(json.decode(response.body)));
     return Post.fromJson(json.decode(response.body));
   } else {
     // If that call was not successful, throw an error.
@@ -21,19 +22,26 @@ Future<Post> fetchPost() async {
 }
 
 class Post {
-  final int userId;
-  final int id;
-  final String title;
+  // final int userId; // final means cannot be changed once assigned
+  // final int id;
+  // final String title;
   final String body;
 
-  Post({this.userId, this.id, this.title, this.body});
+  // Post({this.userId, this.id, this.title, this.body}); // normal constructor
+  Post({this.body}); // normal constructor
 
-  factory Post.fromJson(Map<String, dynamic> json) {
+ /*
+    factory classes are used
+    to create instances of subclasses (for example depending on the passed parameter
+    to return a cached instance instead of a new one
+    to prepare calculated values to forward them as parameters to a normal constructor so that final fields can be initialized with them. This is often used to work around limitations of what can be done in an initializer list of a normal constructor (like error handling).
+ */
+  factory Post.fromJson(Map<String, dynamic> json) { // factory is a static constructor, returns the same instance of the class it belongs to
     return Post(
-      userId: json['userId'],
-      id: json['id'],
-      title: json['title'],
-      body: json['body'],
+      // userId: json['userId'],
+      // id: json['id'],
+      // title: json['title'],
+      body: json['Time Series (5min)']['2019-06-28 16:00:00']['1. open'],
     );
   }
 }
@@ -61,7 +69,7 @@ class MyApp extends StatelessWidget {
             future: fetchPost(),
             builder: (context, snapshot) {
               if (snapshot.hasData) {
-                return Text(snapshot.data.title);
+                return Text(snapshot.data.body);
               } else if (snapshot.hasError) {
                 return Text("${snapshot.error}");
               }
